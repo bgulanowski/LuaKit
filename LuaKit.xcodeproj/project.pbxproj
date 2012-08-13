@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84316BCB15D93C0800198DF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84316BCA15D93C0800198DF6 /* Foundation.framework */; };
+		84316BD015D93C0800198DF6 /* LuaKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84316BCF15D93C0800198DF6 /* LuaKit.h */; };
+		84316BD215D93C0800198DF6 /* LuaKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84316BD115D93C0800198DF6 /* LuaKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84316BC515D93C0800198DF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				84316BD015D93C0800198DF6 /* LuaKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84316BC715D93C0800198DF6 /* libLuaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLuaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84316BCA15D93C0800198DF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84316BCE15D93C0800198DF6 /* LuaKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuaKit-Prefix.pch"; sourceTree = "<group>"; };
+		84316BCF15D93C0800198DF6 /* LuaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuaKit.h; sourceTree = "<group>"; };
+		84316BD115D93C0800198DF6 /* LuaKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuaKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84316BC415D93C0800198DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84316BCB15D93C0800198DF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84316BBC15D93C0800198DF6 = {
+			isa = PBXGroup;
+			children = (
+				84316BCC15D93C0800198DF6 /* LuaKit */,
+				84316BC915D93C0800198DF6 /* Frameworks */,
+				84316BC815D93C0800198DF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84316BC815D93C0800198DF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84316BC715D93C0800198DF6 /* libLuaKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84316BC915D93C0800198DF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84316BCA15D93C0800198DF6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84316BCC15D93C0800198DF6 /* LuaKit */ = {
+			isa = PBXGroup;
+			children = (
+				84316BCF15D93C0800198DF6 /* LuaKit.h */,
+				84316BD115D93C0800198DF6 /* LuaKit.m */,
+				84316BCD15D93C0800198DF6 /* Supporting Files */,
+			);
+			path = LuaKit;
+			sourceTree = "<group>";
+		};
+		84316BCD15D93C0800198DF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84316BCE15D93C0800198DF6 /* LuaKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84316BC615D93C0800198DF6 /* LuaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84316BD515D93C0800198DF6 /* Build configuration list for PBXNativeTarget "LuaKit" */;
+			buildPhases = (
+				84316BC315D93C0800198DF6 /* Sources */,
+				84316BC415D93C0800198DF6 /* Frameworks */,
+				84316BC515D93C0800198DF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaKit;
+			productName = LuaKit;
+			productReference = 84316BC715D93C0800198DF6 /* libLuaKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84316BBE15D93C0800198DF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Lichen Labs";
+			};
+			buildConfigurationList = 84316BC115D93C0800198DF6 /* Build configuration list for PBXProject "LuaKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84316BBC15D93C0800198DF6;
+			productRefGroup = 84316BC815D93C0800198DF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84316BC615D93C0800198DF6 /* LuaKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84316BC315D93C0800198DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84316BD215D93C0800198DF6 /* LuaKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84316BD315D93C0800198DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84316BD415D93C0800198DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84316BD615D93C0800198DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LuaKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuaKit/LuaKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84316BD715D93C0800198DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LuaKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuaKit/LuaKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84316BC115D93C0800198DF6 /* Build configuration list for PBXProject "LuaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84316BD315D93C0800198DF6 /* Debug */,
+				84316BD415D93C0800198DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84316BD515D93C0800198DF6 /* Build configuration list for PBXNativeTarget "LuaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84316BD615D93C0800198DF6 /* Debug */,
+				84316BD715D93C0800198DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84316BBE15D93C0800198DF6 /* Project object */;
+}
